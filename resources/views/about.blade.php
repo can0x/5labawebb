@@ -71,7 +71,8 @@
                 </div>
             </div>
             <div class="block">
-                <form>
+                <form action="{{route('contact-form')}}" method="post">
+                    @csrf
                     <h3>Complete the form and we will call you</h3>
                     <div class="wrap-contact">
                         <div class="block">
